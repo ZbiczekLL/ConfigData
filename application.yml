@@ -2,3 +2,28 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
+
+---
+spring:
+  profiles: subject
+words: aaa,bbb,ccc,ddd
+
+---
+spring:
+  profiles: verb
+words: aaa,bbb,ccc,ddd
+
+---
+spring:
+  profiles: article
+words: aaa,bbb,ccc,ddd
+
+---
+spring:
+  profiles: adjective
+words: aaa,bbb,ccc,ddd
+
+---
+spring:
+  profiles: noun
+words: aaa,bbb,ccc,ddd
