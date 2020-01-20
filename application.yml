@@ -1,4 +1,4 @@
-eureka:
+/eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
@@ -16,7 +16,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true        
     serviceUrl:
-      defaultZone: http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
+      defaultZone: http://eureka-secondary:8012/,http://eureka-tertiary:8013/
 
 ---
 spring:
@@ -32,7 +32,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true        
     serviceUrl:
-      defaultZone: http://eureka-tertiary:8013/eureka/,http://eureka-primary:8011/eureka/
+      defaultZone: http://eureka-tertiary:8013/,http://eureka-primary:8011/
 
 ---
 spring:
@@ -48,7 +48,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true    
     serviceUrl:
-      defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/   
+      defaultZone: http://eureka-primary:8011/,http://eureka-secondary:8012/  
 ---
 spring:
   profiles: subject
