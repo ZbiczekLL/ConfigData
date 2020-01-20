@@ -6,7 +6,7 @@ eureka:
 spring:
   profiles: primary
   application:
-    name: eureka-server-clustered   
+    name: lab-4-eureka-server   
 server:
   port: 8011  
 eureka:
@@ -22,7 +22,7 @@ eureka:
 spring:
   profiles: secondary
   application:
-    name: eureka-server-clustered      
+    name: lab-4-eureka-server      
 server:
   port: 8012
 eureka:
@@ -38,7 +38,7 @@ eureka:
 spring:
   profiles: tertiary
   application:
-    name: eureka-server-clustered      
+    name: lab-4-eureka-server      
 server:
   port: 8013
 eureka:
