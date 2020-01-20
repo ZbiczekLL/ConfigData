@@ -8,7 +8,7 @@ spring:
   application:
     name: lab-4-eureka-server   
 server:
-  port: 8011/eureka/  
+  port: 8011  
 eureka:
   instance:
     hostname: eureka-primary       
@@ -24,7 +24,7 @@ spring:
   application:
     name: lab-4-eureka-server      
 server:
-  port: 8012/eureka/
+  port: 8012
 eureka:
   instance:
     hostname: eureka-secondary       
@@ -40,7 +40,7 @@ spring:
   application:
     name: lab-4-eureka-server      
 server:
-  port: 8013/eureka/
+  port: 8013
 eureka:
   instance:
     hostname: eureka-tertiary       
