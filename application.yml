@@ -73,3 +73,8 @@ words: aaa,bbb,ccc,ddd
 spring:
   profiles: noun
 words: aaa,bbb,ccc,ddd
+
+---
+spring:
+  profiles: cold-noun
+words: icicle,refrigerator,blizzard,snowball
